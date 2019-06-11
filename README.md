@@ -1,8 +1,7 @@
-_This is an assignment to the class [Programmieren 3](https://hsro-inf-prg3.github.io) at the [Technical University of Applied Sciences Rosenheim](https://www.th-rosenheim.de)._
+_This is an assignment to the [Software Architecture](https://ohm-softa.github.io) class at the [Technische Hochschule Nürnberg](http://www.th-nuernberg.de)._
 
 # Assignment 12: Functional - CLI variant
 
-[![](https://travis-ci.org/hsro-inf-prg3/12-functional-cli.svg?branch=master)](https://travis-ci.org/hsro-inf-prg3/12-functional-cli)
 
 This assignment covers the basics of the Java 8 `Stream` API.
 Streams are a functional concept and are relatively new in Java but they are very useful in combination with all kinds of _iterable_ data sources.
@@ -26,7 +25,8 @@ _Remark: the given test suite is incomplete but will succeed after the checkout.
 
 _Note 1:_ the class structure is already there (including the empty unit tests).
 
-_Note 2:_ the whole logic around the **ICNDB** is already implemented including the `ICNDBService` singleton! There's no possibility to implement asynchronous generators so you'll have to use the `ICNDBService` also in a synchronous way.
+_Note 2:_ the whole logic around the **ICNDB** is already implemented including the `ICNDBService` singleton!
+There is no way to implement asynchronous generators so you will have to use the `ICNDBService` also in a synchronous way.
 
 ## Generators
 

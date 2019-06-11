@@ -1,9 +1,11 @@
-package de.thro.inf.prg3.a12.icndb;
+package ohm.softa.a12.icndb;
 
-import de.thro.inf.prg3.a12.icndb.suppliers.AllJokesSupplierV2;
-import de.thro.inf.prg3.a12.icndb.suppliers.RandomJokeSupplier;
-import de.thro.inf.prg3.a12.model.JokeDto;
-import de.thro.inf.prg3.a12.model.ResponseWrapper;
+import ohm.softa.a12.icndb.suppliers.AllJokesSupplierV2;
+import ohm.softa.a12.icndb.suppliers.RandomJokeSupplier;
+import ohm.softa.a12.model.JokeDto;
+import ohm.softa.a12.model.ResponseWrapper;
+import org.apache.commons.lang3.NotImplementedException;
+
 
 import java.util.stream.Stream;
 

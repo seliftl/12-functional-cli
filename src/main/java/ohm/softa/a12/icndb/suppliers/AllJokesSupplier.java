@@ -1,9 +1,9 @@
-package de.thro.inf.prg3.a12.icndb.suppliers;
+package ohm.softa.a12.icndb.suppliers;
 
-import de.thro.inf.prg3.a12.icndb.ICNDBApi;
-import de.thro.inf.prg3.a12.icndb.ICNDBService;
-import de.thro.inf.prg3.a12.model.JokeDto;
-import de.thro.inf.prg3.a12.model.ResponseWrapper;
+import ohm.softa.a12.icndb.ICNDBApi;
+import ohm.softa.a12.icndb.ICNDBService;
+import ohm.softa.a12.model.JokeDto;
+import ohm.softa.a12.model.ResponseWrapper;
 import org.apache.commons.lang3.NotImplementedException;
 
 import java.util.concurrent.ExecutionException;

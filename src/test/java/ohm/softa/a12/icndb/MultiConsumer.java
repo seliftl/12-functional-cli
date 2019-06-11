@@ -1,4 +1,4 @@
-package de.thro.inf.prg3.a12.icndb;
+package ohm.softa.a12.icndb;
 
 import java.util.function.Consumer;
 

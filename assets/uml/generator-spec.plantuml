@@ -6,7 +6,7 @@ package java.util.function {
     }
 }
 
-package de.thro.inf.prg3.a12.icndb {
+package ohm.softa.a12.icndb {
     class JokeGenerator {
         +randomJokesStream(): Stream<ResponseWrapper<JokeDto>>
         +jokesStream(): Stream<ResponseWrapper<JokeDto>>

@@ -1,8 +1,8 @@
-package de.thro.inf.prg3.a12;
+package ohm.softa.a12;
 
-import de.thro.inf.prg3.a12.icndb.JokeGenerator;
-import de.thro.inf.prg3.a12.model.JokeDto;
-import de.thro.inf.prg3.a12.model.ResponseWrapper;
+import ohm.softa.a12.icndb.JokeGenerator;
+import ohm.softa.a12.model.JokeDto;
+import ohm.softa.a12.model.ResponseWrapper;
 
 import java.util.Objects;
 import java.util.Scanner;

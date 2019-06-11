@@ -1,7 +1,7 @@
-package de.thro.inf.prg3.a12.icndb;
+package ohm.softa.a12.icndb;
 
-import de.thro.inf.prg3.a12.model.JokeDto;
-import de.thro.inf.prg3.a12.model.ResponseWrapper;
+import ohm.softa.a12.model.JokeDto;
+import ohm.softa.a12.model.ResponseWrapper;
 import retrofit2.Retrofit;
 import retrofit2.adapter.java8.Java8CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
