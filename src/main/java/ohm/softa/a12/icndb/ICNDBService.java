@@ -2,6 +2,8 @@ package ohm.softa.a12.icndb;
 
 import ohm.softa.a12.model.JokeDto;
 import ohm.softa.a12.model.ResponseWrapper;
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.adapter.java8.Java8CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -34,11 +36,17 @@ public final class ICNDBService implements ICNDBApi {
 
     private ICNDBService() {
         /* Initialize Retrofit */
-        var retrofit = new Retrofit.Builder()
+		HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
+		interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+		OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
+
+
+		var retrofit = new Retrofit.Builder()
                 .baseUrl("http://api.icndb.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 /* CallAdapterFactory required to wrap calls in CompletableFutures */
                 .addCallAdapterFactory(Java8CallAdapterFactory.create())
+			.client(client)
                 .build();
 
         icndbApi = retrofit.create(ICNDBApi.class);

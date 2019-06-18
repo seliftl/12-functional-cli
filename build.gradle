@@ -31,6 +31,8 @@ dependencies {
 	testRuntime("org.junit.jupiter:junit-jupiter-params:${junitVersion}")
 	testImplementation("org.apache.logging.log4j:log4j-core:${log4jVersion}")
 	testRuntime("org.apache.logging.log4j:log4j-jul:${log4jVersion}")
+
+	implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
 }
 
 test {
